@@ -3,28 +3,24 @@
 
         <remote name="Lafactorial"
                 fetch="https://github.com/Lafactorial" />
+				
+        <remote name="pxl" fetch="https://github.com/PixelExperience/" />		
+
+        <remove-project name="crdroidandroid/android_device_qcom_sepolicy-legacy-um" />
+        <remove-project name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r445002" />	
+        <remove-project name="LineageOS/android_hardware_qcom_display" />
+        <remove-project name="LineageOS/android_hardware_qcom_media" />  		
         
-        <project path="device/xiaomi/tissot" name="android_device_xiaomi_tissot" remote="Lafactorial" revision="12.1" clone-depth="1" />
-        <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="Lafactorial" revision="12.1" clone-depth="1" />
-        <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="Lafactorial" revision="12" clone-depth="1" />
-        <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="Lafactorial" revision="12" clone-depth="1" />
-        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_tissot-1" remote="Lafactorial" revision="snow" clone-depth="1" />
-        
-        <remote name="pxl" fetch="https://github.com/PixelExperience/" />
-        
-        <remove-project name="android_hardware_qcom_display" />
-        <remove-project name="android_hardware_qcom_media" />        
-        <remove-project name="android_hardware_qcom_audio" />        
-        <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" remote="pxl" clone-depth="1" />
-        <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" remote="pxl" clone-depth="1" />
-        
+        <project path="device/xiaomi/tissot" name="android_device_xiaomi_tissot" remote="Lafactorial" revision="test" clone-depth="1" />
+        <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="Lafactorial" revision="test" clone-depth="1" />
+        <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="Lafactorial" revision="test" clone-depth="1" />
+        <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="Lafactorial" revision="test" clone-depth="1" />
+        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_tissot" remote="Lafactorial" revision="twelve" clone-depth="1" />
+        <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="Lafactorial" revision="12.1" clone-depth="1" />       
+		       
         <remote name="los" fetch="https://github.com/LineageOS" />
-        <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" revision="lineage-18.1-caf-msm8996" />
-       
-        <!-- Wlan -->
-        <remote name="gma"
-                fetch="https://github.com/GhostMaster69-dev" />
-        
-       <remove-project name="android_hardware_qcom_wlan"/>
-       <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="gma" revision="android-12.0-caf-4.9-S" clone-depth="1" />
+        <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996-r_display" revision="twelve" remote="pixel" clone-depth="1" />
+        <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996-r_media" revision="twelve" remote="pixel" clone-depth="1" />
+		
+       <project path="prebuilts/clang/host/linux-x86/clang-latest" name="android_prebuilts_clang_host_linux-x86_clang-r416183d" remote="Lafactorial" revision="11.0" clone-depth="1" />		
 </manifest>
