@@ -19,8 +19,8 @@
         <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="Lafactorial" revision="12.1" clone-depth="1" />       
 		       
         <remote name="los" fetch="https://github.com/LineageOS" />
-        <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996-r_display" revision="twelve" remote="pixel" clone-depth="1" />
-        <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996-r_media" revision="twelve" remote="pixel" clone-depth="1" />
+        <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996-r_display" revision="twelve" remote="pxl" clone-depth="1" />
+        <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996-r_media" revision="twelve" remote="pxl" clone-depth="1" />
 		
        <project path="prebuilts/clang/host/linux-x86/clang-latest" name="android_prebuilts_clang_host_linux-x86_clang-r416183d" remote="Lafactorial" revision="11.0" clone-depth="1" />		
 </manifest>
