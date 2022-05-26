@@ -11,7 +11,7 @@
 	<remove-project name="platform_hardware_qcom_audio" />
 	<remove-project name="platform_hardware_qcom_wlan"/>
 	
-	<project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" remote="pxl" clone-depth="1" />
+	<project path="hardware/qcom-caf/msm8996/display" name="msm8996_display" revision="12.1" remote="Lafactorial" clone-depth="1" />
 	<project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" remote="pxl" clone-depth="1" />
 	<project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" revision="twelve" remote="pxl" clone-depth="1" />
 	<project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="Lafactorial" revision="12.0-caf" clone-depth="1" />
