@@ -3,18 +3,16 @@
 
         <remote name="Lafactorial"
                 fetch="https://github.com/Lafactorial" />
-				
-        <remote name="pxl" fetch="https://github.com/PixelExperience/" />		
 
-        <remove-project name="hardware_qcom_display" />
-        <remove-project name="hardware_qcom_media" />
-        
-        <project path="device/xiaomi/tissot" name="android_device_xiaomi_tissot" remote="Lafactorial" revision="V" clone-depth="1" />
-        <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="Lafactorial" revision="V" clone-depth="1" />
-        <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="Lafactorial" revision="12" clone-depth="1" />
-        <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="Lafactorial" revision="12.1" clone-depth="1" />
-	<project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_tissot-1" remote="Lafactorial" revision="snow" clone-depth="1" />
+        <remote name="Cake"
+                fetch="https://github.com/Anothermi1" />
+	
+        <remote name="los" fetch="https://github.com/LineageOS" />
 
-        <project path="hardware/qcom-caf/msm8996/display" name="msm8996_display" revision="V" remote="Lafactorial" clone-depth="1" />
-        <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" remote="pxl" clone-depth="1" />
+        <project path="device/xiaomi/tissot" name="android_device_xiaomi_tissot" remote="Lafactorial" revision="Derp" clone-depth="1" />
+        <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="Lafactorial" revision="Derp" clone-depth="1" />
+        <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="Lafactorial" revision="lineage" clone-depth="1" />
+        <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="Lafactorial" revision="lineage" clone-depth="1" />
+	<project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_tissot-neon" remote="Lafactorial" revision="twelve" clone-depth="1" />
+
 </manifest>
