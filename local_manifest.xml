@@ -8,19 +8,14 @@
                 fetch="https://github.com/Anothermi1" />
 	
         <remote name="los" fetch="https://github.com/LineageOS" />
-	
-        <remote name="pxl" fetch="https://github.com/PixelExperience/" />		
 
-        <remove-project name="LineageOS/android_hardware_qcom_display" />
-        <remove-project name="LineageOS/android_hardware_qcom_media" />
+        <remove-project name="platform/frameworks/opt/net/ims" />
 
-        <project path="device/xiaomi/tissot" name="android_device_xiaomi_tissot" remote="Lafactorial" revision="evope" clone-depth="1" />
-        <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="Lafactorial" revision="evope" clone-depth="1" />
-        <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="Lafactorial" revision="12" clone-depth="1" />
-        <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="Lafactorial" revision="12.1" clone-depth="1" />
+        <project path="device/xiaomi/tissot" name="android_device_xiaomi_tissot" remote="Lafactorial" revision="EvoX" clone-depth="1" />
+        <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="Lafactorial" revision="13" clone-depth="1" />
+        <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="Lafactorial" revision="lineage" clone-depth="1" />
+        <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="Lafactorial" revision="lineage" clone-depth="1" />
 	<project path="kernel/xiaomi/msm8953" name="cakeby_kernel" remote="Cake" revision="NON-OC" clone-depth="1" />
         <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="Lafactorial" revision="master" clone-depth="1" />
-        <project path="hardware/qcom-caf/msm8996/display" name="msm8996_display" revision="V" remote="Lafactorial" clone-depth="1" />
-        <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" revision="twelve-LA.UM.9.6.2.r1-04100-89xx.0" remote="pxl" clone-depth="1" />
-
+        <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="Lafactorial" revision="arrow-13.0" clone-depth="1" />
 </manifest>
