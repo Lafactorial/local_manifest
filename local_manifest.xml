@@ -9,9 +9,9 @@
 	
         <remote name="los" fetch="https://github.com/LineageOS" />
 
-        <project path="device/xiaomi/tissot" name="android_device_xiaomi_tissot" remote="Lafactorial" revision="Evox" clone-depth="1" />
+        <project path="device/xiaomi/tissot" name="android_device_xiaomi_tissot" remote="Lafactorial" revision="H" clone-depth="1" />
         <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="Lafactorial" revision="EVO-13" clone-depth="1" />
-        <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="Lafactorial" revision="lineage-test" clone-depth="1" />
+        <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="Lafactorial" revision="lineage" clone-depth="1" />
         <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="Lafactorial" revision="lineage" clone-depth="1" />
 	<project path="kernel/xiaomi/msm8953" name="cakeby_kernel" remote="Cake" revision="NON-OC" clone-depth="1" />
         <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="Lafactorial" revision="master" clone-depth="1" />
