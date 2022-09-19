@@ -8,6 +8,9 @@
                 fetch="https://github.com/Anothermi1" />
 	
         <remote name="los" fetch="https://github.com/LineageOS" />
+	
+        <remove-project name="platform/frameworks/opt/net/ims" />
+        <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="Lafactorial" revision="arrow-13.0" clone-depth="1" />
 
         <project path="device/xiaomi/tissot" name="android_device_xiaomi_tissot" remote="Lafactorial" revision="Evox" clone-depth="1" />
         <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="Lafactorial" revision="EVO-13" clone-depth="1" />
