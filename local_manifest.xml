@@ -9,7 +9,7 @@
 	
         <remote name="los" fetch="https://github.com/LineageOS" />
 
-        <project path="device/xiaomi/tissot" name="android_device_xiaomi_tissot" remote="Lafactorial" revision="Che" clone-depth="1" />
+        <project path="device/xiaomi/tissot" name="android_device_xiaomi_tissot" remote="Lafactorial" revision="H" clone-depth="1" />
         <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="Lafactorial" revision="Cherish" clone-depth="1" />
         <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="Lafactorial" revision="lineage" clone-depth="1" />
         <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="Lafactorial" revision="lineage" clone-depth="1" />
