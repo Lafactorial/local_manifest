@@ -6,19 +6,10 @@
 
         <remote name="Cake"
                 fetch="https://github.com/Anothermi1" />
-	
-        <remote name="los" fetch="https://github.com/LineageOS" />
-	
-        <remote name="hungphan2001-gitlab"
-               fetch="https://gitlab.com/hungphan2001"
-               revision="tiramisu" />
+
 
         <remove-project name="android_vendor_cherish" />
         <project path="vendor/cherish" name="android_vendor_cherish" remote="Lafactorial" revision="tiramisu" clone-depth="1" />
-        <remove-project name="android_system_media" />
-        <remove-project name="android_vendor_gapps" />
-        <project path="vendor/gms" name="android_vendor_gapps" remote="hungphan2001-gitlab" clone-depth="1" />
-        <remove-project name="android_vendor_pixel-framework" />
 
         <project path="device/xiaomi/tissot" name="android_device_xiaomi_tissot" remote="Lafactorial" revision="Che" clone-depth="1" />
         <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="Lafactorial" revision="Cherish" clone-depth="1" />
