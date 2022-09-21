@@ -13,10 +13,7 @@
         <remove-project name="android_vendor_cherish" />
         <project path="vendor/cherish" name="android_vendor_cherish" remote="Lafactorial" revision="tiramisu" clone-depth="1" />
         <remove-project name="LineageOS/android_hardware_qcom_display" />
-        <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="los" revision="lineage-20.0-caf-msm8996" clone-depth="1" />
-        <remove-project name="LineageOS/android_hardware_qcom_media" />
-        <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="los" revision="lineage-20.0-caf-msm8996" clone-depth="1" />
-        <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="los" revision="lineage-20.0-caf-msm8996" clone-depth="1" />
+        <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="Lafactorial" revision="lineage-20.0-caf-msm8996" clone-depth="1" />
 
         <project path="device/xiaomi/tissot" name="android_device_xiaomi_tissot" remote="Lafactorial" revision="Che" clone-depth="1" />
         <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="Lafactorial" revision="Cherish" clone-depth="1" />
