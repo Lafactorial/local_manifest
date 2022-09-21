@@ -16,7 +16,6 @@
         <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" remote="los" revision="lineage-20.0-caf-msm8996" clone-depth="1" />
         <remove-project name="LineageOS/android_hardware_qcom_media" />
         <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" remote="los" revision="lineage-20.0-caf-msm8996" clone-depth="1" />
-        <remove-project name="LineageOS/android_hardware_qcom_audio" />
         <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" remote="los" revision="lineage-20.0-caf-msm8996" clone-depth="1" />
 
         <project path="device/xiaomi/tissot" name="android_device_xiaomi_tissot" remote="Lafactorial" revision="Che" clone-depth="1" />
