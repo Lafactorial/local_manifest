@@ -10,7 +10,7 @@
         <remote name="los" fetch="https://github.com/LineageOS" />
 
         <remove-project name="ArrowOS/android_vendor_codeaurora_telephony" />
-        <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="los" revision="lineage-20.0" clone-depth="1" />
+        <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="Lafactorial" revision="thirteen" clone-depth="1" />
         <remove-project name="frameworks_opt_telephony" />
         <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="Lafactorial" revision="tiramisu" clone-depth="1" />
 
