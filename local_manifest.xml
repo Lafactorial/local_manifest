@@ -15,7 +15,7 @@
         <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="Lafactorial" revision="tiramisu" clone-depth="1" />
 
 
-        <project path="device/xiaomi/tissot" name="android_device_xiaomi_tissot" remote="Lafactorial" revision="13.0-pixel" clone-depth="1" />
+        <project path="device/xiaomi/tissot" name="android_device_xiaomi_tissot" remote="Lafactorial" revision="EVO" clone-depth="1" />
         <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="Lafactorial" revision="13.0-pixel" clone-depth="1" />
         <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="Lafactorial" revision="13.0" clone-depth="1" />
         <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="Lafactorial" revision="EVO" clone-depth="1" />
