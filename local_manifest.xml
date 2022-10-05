@@ -4,9 +4,6 @@
         <remote name="rem"
                 fetch="https://github.com" />
 
-        <remote name="Cake"
-                fetch="https://github.com/Anothermi1" />
-
         <remove-project name="android_vendor_codeaurora_telephony" />
         <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="rem" revision="lineage-20.0" clone-depth="1" />
 
