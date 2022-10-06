@@ -4,13 +4,6 @@
         <remote name="rem"
                 fetch="https://github.com" />
 
-        <remove-project name="android_vendor_codeaurora_telephony" />
-        <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="rem" revision="lineage-20.0" clone-depth="1" />
-        <remove-project name="packages_modules_Wifi" />
-        <project path="packages/modules/Wifi" name="LineageOS/android_packages_modules_Wifi" remote="rem" revision="lineage-20.0" clone-depth="1" />
-        <remove-project name="packages_apps_Fireworks" />
-        <project path="packages/apps/Fireworks" name="Lafactorial/packages_apps_Fireworks" remote="rem" revision="pyro" clone-depth="1" />
-
 
         <project path="device/xiaomi/tissot" name="Lafactorial/android_device_xiaomi_tissot" remote="rem" revision="spark" clone-depth="1" />
         <project path="device/xiaomi/msm8953-common" name="Lafactorial/device_xiaomi_msm8953-common" remote="rem" revision="spark" clone-depth="1" />
