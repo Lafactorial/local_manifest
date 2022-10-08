@@ -11,7 +11,6 @@
 
         <remove-project name="ArrowOS/android_vendor_codeaurora_telephony" />
         <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="los" revision="lineage-20.0" clone-depth="1" />
-	<project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="los" revision="lineage-20.0" clone-depth="1" />
 
 
         <project path="device/xiaomi/tissot" name="android_device_xiaomi_tissot" remote="Lafactorial" revision="Evo-los" clone-depth="1" />
