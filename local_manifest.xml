@@ -17,6 +17,6 @@
         <project path="device/xiaomi/msm8953-common" name="Lafactorial/device_xiaomi_msm8953-common" remote="rem" revision="cr-13" clone-depth="1" />
         <project path="vendor/xiaomi/tissot" name="Lafactorial/vendor_xiaomi_tissot" remote="rem" revision="13.0" clone-depth="1" />
         <project path="vendor/xiaomi/msm8953-common" name="Lafactorial/vendor_xiaomi_msm8953-common" remote="rem" revision="cr-13" clone-depth="1" />
-	<project path="kernel/xiaomi/msm8953" name="Anothermi1/cakeby_kernel" remote="rem" revision="NON-OC" clone-depth="1" />
-        <project path="prebuilts/clang/host/linux-x86/proton-clang" name="Lafactorial/proton-clang" remote="rem" revision="master" clone-depth="1" />
+        <project path="kernel/xiaomi/msm8953" name="zhantech/android_kernel_msm8953" remote="rem" revision="Pringgodani" />
+        <project path="prebuilts/clang/host/linux-x86/gabuters-clang" name="Gabuters-Dev/gabuters-clang" remote="rem" revision="master" />
 </manifest>
