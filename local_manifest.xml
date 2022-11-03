@@ -7,6 +7,7 @@
         <remove-project name="LineageOS/android_hardware_lineage_compat" />
         <remove-project name="LineageOS/android_hardware_qcom_wlan" />
         <remove-project name="RiceDroid/android_packages_apps_RiceDroidSettings" />
+        <remove-project name="platform/prebuilts/clang/host/linux-x86" />
 
         <project path="hardware/qcom-caf/wlan" name="Lafactorial/android_hardware_qcom_wlan" remote="rem" revision="lineage-20.0-caf" />
         <project path="packages/apps/FMRadio" name="mi-sdm439/android_packages_apps_FMRadio" remote="rem" revision="lineage-18.1"/>
