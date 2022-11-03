@@ -5,7 +5,7 @@
                 fetch="https://github.com" />
 		
 	<remote name="ImSurajxD"
-		fetch="https://gitlab.com/ImSurajxD" />		
+                fetch="https://gitlab.com/ImSurajxD" />
 
         <remove-project name="LineageOS/android_hardware_lineage_compat" />
         <remove-project name="LineageOS/android_hardware_qcom_wlan" />
