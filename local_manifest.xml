@@ -14,8 +14,6 @@
         <remove-project name="RiceDroid/android_packages_apps_Launcher3" />
 
         <project path="hardware/qcom-caf/wlan" name="Lafactorial/android_hardware_qcom_wlan" remote="rem" revision="lineage-20.0-caf" />
-        <project path="packages/apps/FMRadio" name="mi-sdm439/android_packages_apps_FMRadio" remote="rem" revision="lineage-18.1"/>
-        <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" groups="qcom,pdk-qcom" revision="lineage-18.1"/>
         <project path="packages/apps/riceDroidSettings" name="Lafactorial/android_packages_apps_RiceDroidSettings" remote="rem" revision="thirteen" />
         <project path="packages/apps/Settings" name="Lafactorial/android_packages_apps_Settings" remote="rem" revision="thirteen" />
         <project path="packages/apps/Launcher3" name="Lafactorial/android_packages_apps_Launcher3" remote="rem" revision="thirteen" />
