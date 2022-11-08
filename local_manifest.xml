@@ -12,6 +12,7 @@
         <remove-project name="RiceDroid/android_packages_apps_RiceDroidSettings" />
         <remove-project name="RiceDroid/android_packages_apps_Settings" />
         <remove-project name="RiceDroid/android_packages_apps_Launcher3" />
+        <remove-project name="RiceDroid/android_frameworks_base" />
 
         <project path="hardware/qcom-caf/wlan" name="Lafactorial/android_hardware_qcom_wlan" remote="rem" revision="lineage-20.0-caf" />
         <project path="packages/apps/FMRadio" name="mi-sdm439/android_packages_apps_FMRadio" remote="rem" revision="lineage-18.1"/>
@@ -19,6 +20,7 @@
         <project path="packages/apps/riceDroidSettings" name="Lafactorial/android_packages_apps_RiceDroidSettings" remote="rem" revision="thirteen" />
         <project path="packages/apps/Settings" name="Lafactorial/android_packages_apps_Settings" remote="rem" revision="thirteen" />
         <project path="packages/apps/Launcher3" name="Lafactorial/android_packages_apps_Launcher3" remote="rem" revision="thirteen" />
+        <project path="frameworks/base" name="Lafactorial/android_frameworks_base-1" remote="rem" revision="thirteen" />
 
         <project path="device/xiaomi/tissot" name="Lafactorial/android_device_xiaomi_tissot" remote="rem" revision="rice-T" clone-depth="1" />
         <project path="device/xiaomi/msm8953-common" name="Lafactorial/device_xiaomi_msm8953-common" remote="rem" revision="rice-T" clone-depth="1" />
