@@ -6,6 +6,9 @@
 		
 	<remote name="ImSurajxD"
                 fetch="https://gitlab.com/ImSurajxD" />
+	
+	<remote name="clang"
+                fetch="https://gitlab.com/LeCmnGend" />
 
         <remove-project name="LineageOS/android_hardware_lineage_compat" />
         <remove-project name="RiceDroid/android_packages_apps_RiceDroidSettings" />
