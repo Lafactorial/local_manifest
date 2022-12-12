@@ -14,12 +14,18 @@
         <remove-project name="RiceDroid/android_packages_apps_RiceDroidSettings" />
         <remove-project name="RiceDroid/android_packages_apps_Settings" />
         <remove-project name="RiceDroid/android_packages_apps_Launcher3" />
+        <remove-project name="LineageOS/android_frameworks_opt_telephony" />
+        <remove-project name="LineageOS/android_packages_providers_TelephonyProvider" />
+        <remove-project name="LineageOS/android_packages_services_Mms" />
 
         <project path="packages/apps/FMRadio" name="mi-sdm439/android_packages_apps_FMRadio" remote="rem" revision="lineage-18.1"/>
         <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" groups="qcom,pdk-qcom" revision="lineage-18.1"/>
         <project path="packages/apps/riceDroidSettings" name="Lafactorial/android_packages_apps_RiceDroidSettings" remote="rem" revision="thirteen" />
         <project path="packages/apps/Settings" name="Lafactorial/android_packages_apps_Settings" remote="rem" revision="thirteen" />
         <project path="packages/apps/Launcher3" name="Lafactorial/android_packages_apps_Launcher3" remote="rem" revision="thirteen" />
+        <project path="frameworks/opt/telephony" name="Lafactorial/android_frameworks_opt_telephony-1" remote="rem" revision="thirteen" />
+        <project path="packages/providers/TelephonyProvider" name="Lafactorial/android_packages_providers_TelephonyProvider" remote="rem" revision="thirteen" />
+        <project path="packages/services/Mms" name="Lafactorial/android_packages_services_Mms-1" remote="rem" revision="thirteen" />
 
         <project path="device/xiaomi/tissot" name="Lafactorial/android_device_xiaomi_tissot" remote="rem" revision="rice-T" clone-depth="1" />
         <project path="device/xiaomi/msm8953-common" name="Lafactorial/device_xiaomi_msm8953-common" remote="rem" revision="rice-T" clone-depth="1" />
