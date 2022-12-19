@@ -7,9 +7,6 @@
 	<remote name="ImSurajxD"
                 fetch="https://gitlab.com/ImSurajxD" />
 
-	<remote name="clang"
-                fetch="https://gitlab.com/LeCmnGend" />
-
         <remove-project name="LineageOS/android_hardware_lineage_compat" />
         <remove-project name="LineageOS/android_hardware_qcom_wlan" />
 
@@ -24,5 +21,4 @@
         <project path="vendor/xiaomi/msm8953-common" name="Lafactorial/vendor_xiaomi_msm8953-common" remote="rem" revision="thirteen" clone-depth="1" />
         <project path="kernel/xiaomi/msm8953" name="zhantech/android_kernel_msm8953" remote="rem" revision="Pringgodani" />
 	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
-        <project path="prebuilts/clang/host/linux-x86/proton-clang" name="LeCmnGend/proton-clang" remote="clang" revision="clang-15" clone-depth="1" />
 </manifest>
