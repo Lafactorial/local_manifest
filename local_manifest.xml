@@ -10,8 +10,6 @@
 
         <remove-project name="android_device_cherish_sepolicy" />
         <project path="device/cherish/sepolicy" name="Lafactorial/android_device_cherish_sepolicy" remote="rem" revision="tiramisu" clone-depth="1" />
-        <project path="packages/apps/FMRadio" name="mi-sdm439/android_packages_apps_FMRadio" remote="rem" revision="lineage-18.1"/>
-        <project path="vendor/qcom/opensource/libfmjni" name="LineageOS/android_vendor_qcom_opensource_libfmjni" groups="qcom,pdk-qcom" revision="lineage-18.1"/>
         <project path="hardware/lineage/compat" name="Lafactorial/android_hardware_lineage_compat" remote="rem" revision="lineage-20" />
 
         <project path="device/xiaomi/tissot" name="Lafactorial/android_device_xiaomi_tissot" remote="rem" revision="cherish-new" clone-depth="1" />
