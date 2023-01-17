@@ -6,9 +6,6 @@
 		
 	<remote name="ImSurajxD"
                 fetch="https://gitlab.com/ImSurajxD" />
-	
-	<remote name="clang"
-                fetch="https://gitlab.com/LeCmnGend" />
 
         <remove-project name="LineageOS/android_hardware_lineage_compat" />
 
@@ -22,5 +19,4 @@
         <project path="vendor/xiaomi/msm8953-common" name="Lafactorial/vendor_xiaomi_msm8953-common" remote="rem" revision="thirteen" clone-depth="1" />
         <project path="kernel/xiaomi/msm8953" name="Lafactorial/android_kernel_msm8953" remote="rem" revision="13" />
 	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
-        <project path="prebuilts/clang/host/linux-x86/proton-clang" name="proton-clang" remote="clang" revision="clang-15" clone-depth="1" />
 </manifest>
