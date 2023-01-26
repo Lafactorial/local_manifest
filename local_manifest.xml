@@ -10,6 +10,8 @@
 
         <remove-project name="android_hardware_qcom_wlan" />
         <remove-project name="android_hardware_lineage_compat" />
+        <remove-project name="platform/system/libhidl" />
+        <project path="system/libhidl" name="LineageOS/android_system_libhidl" remote="rem" revision="lineage-20.0" clone-depth="1" />
         <project path="hardware/qcom-caf/wlan" name="Lafactorial/hardware_qcom_wlan" remote="rem" revision="lineage-20.0-caf" clone-depth="1" />
         <project path="hardware/lineage/compat" name="Lafactorial/android_hardware_lineage_compat" remote="rem" revision="lineage-20.0" clone-depth="1" />
 
