@@ -3,10 +3,6 @@
 
         <remote name="rem"
                 fetch="https://github.com" />
-	
-  	<remote  name="aosp"
-           fetch="https://android.googlesource.com"
-           review="https://android-review.googlesource.com/" />
 
 	<remote name="ImSurajxD"
                 fetch="https://gitlab.com/ImSurajxD" />
