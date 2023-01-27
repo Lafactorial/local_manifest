@@ -4,8 +4,9 @@
         <remote name="rem"
                 fetch="https://github.com" />
 	
-        <remote name="compat"
-                fetch="https://github.com/Lafactorial" />
+  	<remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="https://android-review.googlesource.com/" />
 
 	<remote name="ImSurajxD"
                 fetch="https://gitlab.com/ImSurajxD" />
@@ -13,6 +14,10 @@
         <remote name="iusmac" fetch="https://github.com/iusmac" revision="qcom" />
         <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="iusmac" />
 
+        <remove-project name="platform/frameworks/opt/net/ims" />
+	<project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" remote="aosp" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
+	<remove-project name="platform/frameworks/opt/telephony" />
+	<project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" remote="aosp" groups="pdk" />
 
         <remove-project name="hardware_qcom_wlan" />
         <remove-project name="android_hardware_lineage_compat" />
