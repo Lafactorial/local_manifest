@@ -14,11 +14,6 @@
         <remote name="iusmac" fetch="https://github.com/iusmac" revision="qcom" />
         <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="iusmac" />
 
-        <remove-project name="platform/frameworks/opt/net/ims" />
-	<project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" remote="aosp" groups="frameworks_ims,pdk-cw-fs,pdk-fs" />
-	<remove-project name="platform/frameworks/opt/telephony" />
-	<project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" remote="aosp" groups="pdk" />
-
         <remove-project name="hardware_qcom_wlan" />
         <remove-project name="android_hardware_lineage_compat" />
         <remove-project name="packages_apps_Settings" />
