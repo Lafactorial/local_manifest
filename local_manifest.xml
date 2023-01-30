@@ -9,10 +9,6 @@
 
         <remove-project name="LineageOS/android_hardware_lineage_compat" />
         <remove-project name="LineageOS/android_hardware_qcom_wlan" />
-        <remove-project name="crdroidandroid/android_frameworks_opt_net_ims" />
-        <remove-project name="crdroidandroid/android_frameworks_opt_telephony />
-	<project path="frameworks/opt/net/ims" name="Lafactorial/android_frameworks_opt_net_ims" remote="rem" revision="13.0" />
-	<project path="frameworks/opt/telephony" name="Lafactorial/android_frameworks_opt_telephony" remote="rem" revision="13.0" />
 
         <project path="hardware/qcom-caf/wlan" name="Lafactorial/android_hardware_qcom_wlan" remote="rem" revision="lineage-20.0-caf" />
         <project path="packages/apps/FMRadio" name="Lafactorial/android_packages_apps_FMRadio" remote="rem" revision="los"/>
