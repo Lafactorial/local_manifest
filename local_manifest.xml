@@ -14,7 +14,7 @@
         <remove-project name="android_hardware_lineage_compat" />
         <remove-project name="packages_apps_Settings" />
         <remove-project name="packages_apps_DerpSpace" />
-        <project path="hardware/qcom-caf/wlan" name="Lafactorial/hardware_qcom_wlan" remote="rem" revision="13-caf" clone-depth="1" />
+        <project path="hardware/qcom-caf/wlan" name="Lafactorial/android_hardware_qcom_wlan" remote="rem" revision="13-caf" clone-depth="1" />
         <project path="hardware/lineage/compat" name="Lafactorial/android_hardware_lineage_compat" remote="rem" revision="lineage-20.0" clone-depth="1" />
         <project path="packages/apps/Settings" name="Lafactorial/packages_apps_Settings" remote="rem" revision="13" />
         <project path="packages/apps/DerpSpace" name="Lafactorial/packages_apps_DerpSpace" remote="rem" revision="13" />
