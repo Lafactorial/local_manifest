@@ -10,13 +10,12 @@
 
         <remove-project name="android_device_cherish_sepolicy" />
         <project path="device/cherish/sepolicy" name="Lafactorial/android_device_cherish_sepolicy" remote="rem" revision="tiramisu" clone-depth="1" />
-        <project path="hardware/lineage/compat" name="Lafactorial/android_hardware_lineage_compat" remote="rem" revision="lineage-20" />
 
         <project path="device/xiaomi/tissot" name="Lafactorial/android_device_xiaomi_tissot" remote="rem" revision="cherish-new" clone-depth="1" />
-        <project path="device/xiaomi/msm8953-common" name="Lafactorial/device_xiaomi_msm8953-common" remote="rem" revision="cherishnofm" clone-depth="1" />
+        <project path="device/xiaomi/msm8953-common" name="Lafactorial/device_xiaomi_msm8953-common" remote="rem" revision="cherish-treble" clone-depth="1" />
         <project path="vendor/xiaomi/tissot" name="Lafactorial/vendor_xiaomi_tissot" remote="rem" revision="thirteen" clone-depth="1" />
         <project path="vendor/xiaomi/msm8953-common" name="Lafactorial/vendor_xiaomi_msm8953-common" remote="rem" revision="thirteen" clone-depth="1" />
-        <project path="kernel/xiaomi/msm8953" name="Lafactorial/android_kernel_msm8953" remote="rem" revision="13" />
+        <project path="kernel/xiaomi/msm8953" name="Lafactorial/android_kernel_msm8953" remote="rem" revision="13-treble" />
 	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
 
 </manifest>
