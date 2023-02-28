@@ -7,7 +7,7 @@
 	<remote name="ImSurajxD"
                 fetch="https://gitlab.com/ImSurajxD" />
 
-        <remove-project name="LineageOS/android_hardware_lineage_compat" />
+        <remove-project name="android_hardware_lineage_compat" />
         <project path="hardware/lineage/compat" name="Lafactorial/android_hardware_lineage_compat" remote="rem" revision="lineage-20.0" />
         <remove-project name="android_hardware_qcom_wlan" />
         <project path="hardware/qcom-caf/wlan" name="Lafactorial/android_hardware_qcom_wlan" remote="rem" revision="lineage-20.0-caf" />
