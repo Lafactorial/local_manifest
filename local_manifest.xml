@@ -3,10 +3,10 @@
 
         <remote name="rem"
                 fetch="https://github.com" />
-		
+
 	<remote name="ImSurajxD"
                 fetch="https://gitlab.com/ImSurajxD" />
-	
+
         <remote name="iusmac" fetch="https://github.com/iusmac" revision="qcom" />
         <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="iusmac" />
 
