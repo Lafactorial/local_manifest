@@ -14,8 +14,6 @@
         <project path="hardware/lineage/compat" name="Lafactorial/android_hardware_lineage_compat" remote="rem" revision="lineage-20.0" />
         <remove-project name="android_hardware_qcom_wlan" />
         <project path="hardware/qcom-caf/wlan" name="Lafactorial/android_hardware_qcom_wlan" remote="rem" revision="lineage-20.0-caf" />
-        <remove-project name="android_packages_apps_BananaGear" />
-        <project path="packages/apps/BananaGear" name="Lafactorial/android_packages_apps_BananaGear" remote="rem" revision="13" />
         <remove-project name="android_packages_apps_Settings" />
         <project path="packages/apps/Settings" name="Lafactorial/android_packages_apps_Settings-1" remote="rem" revision="13" />
         <remove-project name="android_packages_apps_Launcher3" />
