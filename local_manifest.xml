@@ -20,9 +20,7 @@
         <project path="packages/apps/Settings" name="Lafactorial/android_packages_apps_Settings-1" remote="rem" revision="13" />
         <remove-project name="android_packages_apps_Launcher3" />
         <project path="packages/apps/Launcher3" name="Lafactorial/android_packages_apps_Launcher3-1" remote="rem" revision="13" />
-        <remove-project name="android_packages_apps_BananaGear" />
-        <project path="packages/apps/BananaGear" name="Lafactorial/android_packages_apps_BananaGear" remote="rem" revision="13" />
-
+   
         <project path="device/xiaomi/tissot" name="Lafactorial/android_device_xiaomi_tissot" remote="rem" revision="banana" />
         <project path="device/xiaomi/msm8953-common" name="Lafactorial/device_xiaomi_msm8953-common" remote="rem" revision="banana" />
         <project path="vendor/xiaomi/tissot" name="Lafactorial/vendor_xiaomi_tissot" remote="rem" revision="thirteen" />
