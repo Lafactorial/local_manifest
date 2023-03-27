@@ -10,7 +10,7 @@
         <remove-project name="LineageOS/android_hardware_lineage_compat" />
         <remove-project name="LineageOS/android_hardware_qcom_wlan" />
 	<remove-project name="LineageOS/android_external_chromium-webview_prebuilt_arm64"/>
-	<project path="external/chromium-webview/prebuilt/arm64" name="CatOS-Tiramisu/android_external_chromium-webview_prebuilt_arm64" remote="rem" revision="main"  clone-depth="1"/>
+	<project path="external/chromium-webview/prebuilt/arm64" name="Lafactorial/android_external_chromium-webview_prebuilt_arm64" remote="rem" revision="main"  clone-depth="1"/>
 
         <project path="hardware/qcom-caf/wlan" name="Lafactorial/android_hardware_qcom_wlan" remote="rem" revision="lineage-20.0-caf" />
         <project path="packages/apps/FMRadio" name="Lafactorial/android_packages_apps_FMRadio" remote="rem" revision="los"/>
