@@ -10,20 +10,14 @@
         <remote name="iusmac" fetch="https://github.com/iusmac" revision="qcom" />
         <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="iusmac" />
 
-        <remove-project name="hardware_qcom_wlan" />
         <remove-project name="android_hardware_lineage_compat" />
-        <remove-project name="packages_apps_Settings" />
-        <remove-project name="packages_apps_DerpSpace" />
-        <project path="hardware/qcom-caf/wlan" name="Lafactorial/android_hardware_qcom_wlan" remote="rem" revision="13-caf" clone-depth="1" />
         <project path="hardware/lineage/compat" name="Lafactorial/android_hardware_lineage_compat" remote="rem" revision="lineage-20.0" clone-depth="1" />
-        <project path="packages/apps/Settings" name="Lafactorial/packages_apps_Settings" remote="rem" revision="13" />
-        <project path="packages/apps/DerpSpace" name="Lafactorial/packages_apps_DerpSpace" remote="rem" revision="13" />
 
         <project path="device/xiaomi/tissot" name="Lafactorial/android_device_xiaomi_tissot" remote="rem" revision="Derp-13" clone-depth="1" />
-        <project path="device/xiaomi/msm8953-common" name="Lafactorial/device_xiaomi_msm8953-common" remote="rem" revision="cherishnofm" clone-depth="1" />
+        <project path="device/xiaomi/msm8953-common" name="Lafactorial/device_xiaomi_msm8953-common" remote="rem" revision="Derp" clone-depth="1" />
         <project path="vendor/xiaomi/tissot" name="Lafactorial/vendor_xiaomi_tissot" remote="rem" revision="thirteen" clone-depth="1" />
-        <project path="vendor/xiaomi/msm8953-common" name="Lafactorial/vendor_xiaomi_msm8953-common" remote="rem" revision="thirteen" clone-depth="1" />
-        <project path="kernel/xiaomi/msm8953" name="Lafactorial/android_kernel_msm8953" remote="rem" revision="13" />
+        <project path="vendor/xiaomi/msm8953-common" name="Lafactorial/vendor_xiaomi_msm8953-common" remote="rem" revision="test" clone-depth="1" />
+        <project path="kernel/xiaomi/msm8953" name="Lafactorial/android_kernel_msm8953" remote="rem" revision="13-treble" />
 	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
 
 </manifest>
