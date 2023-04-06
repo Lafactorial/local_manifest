@@ -15,6 +15,6 @@
         <project path="device/xiaomi/msm8953-common" name="Lafactorial/device_xiaomi_msm8953-common" remote="rem" revision="Evo" clone-depth="1" />
         <project path="vendor/xiaomi/tissot" name="Lafactorial/vendor_xiaomi_tissot" remote="rem" revision="thirteen" clone-depth="1" />
         <project path="vendor/xiaomi/msm8953-common" name="Lafactorial/vendor_xiaomi_msm8953-common" remote="rem" revision="thirteen" clone-depth="1" />
-        <project path="kernel/xiaomi/msm8953" name="Lafactorial/android_kernel_msm8953" remote="rem" revision="13-treble" />
+        <project path="kernel/xiaomi/msm8953" name="Anothermi1/Another_Kernel_tissot-4.9" remote="rem" revision="NON-OC-Treble" />
 	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
 </manifest>
