@@ -18,5 +18,4 @@
         <project path="vendor/xiaomi/tissot" name="Lafactorial/vendor_xiaomi_tissot" remote="rem" revision="thirteen" clone-depth="1" />
         <project path="vendor/xiaomi/msm8953-common" name="Lafactorial/vendor_xiaomi_msm8953-common" remote="rem" revision="thirteen" clone-depth="1" />
         <project path="kernel/xiaomi/msm8953" name="Anothermi1/Another_Kernel_tissot-4.9" remote="rem" revision="NON-OC" />
-	<project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
 </manifest>
