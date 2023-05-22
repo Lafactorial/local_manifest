@@ -4,11 +4,6 @@
         <remote name="rem"
                 fetch="https://github.com" />
 
-	<remote name="ImSurajxD"
-                fetch="https://gitlab.com/ImSurajxD" />
-
-        <remote name="iusmac" fetch="https://github.com/iusmac" revision="qcom" />
-        <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="iusmac" />
 
         <remove-project name="LineageOS/android_hardware_lineage_compat" />
         <project path="hardware/lineage/compat" name="Lafactorial/android_hardware_lineage_compat" remote="rem" revision="lineage-20.0" />
