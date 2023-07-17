@@ -8,8 +8,6 @@
                 fetch="https://gitlab.com/ImSurajxD" />
 
 
-        <remove-project name="android_device_cherish_sepolicy" />
-        <project path="device/cherish/sepolicy" name="Lafactorial/android_device_cherish_sepolicy" remote="rem" revision="tiramisu" clone-depth="1" />
         <remove-project name="android_hardware_cherish_compat" />
         <project path="hardware/cherish/compat" name="Lafactorial/android_hardware_lineage_compat" remote="rem" revision="lineage-20.0" />
 
