@@ -11,7 +11,7 @@
         <remove-project name="LineageOS/android_hardware_lineage_compat" />
         <project path="hardware/lineage/compat" name="Lafactorial/android_hardware_lineage_compat" remote="rem" revision="lineage-20.0" />
 	<remove-project name="LineageOS/android_hardware_qcom_wlan"/>
-	<project path="hardware/qcom-caf/wlan" name="android_hardware_qcom_wlan" remote="rem" revision="lineage-20.0-caf" clone-depth="1" />
+	<project path="hardware/qcom-caf/wlan" name="Lafactorial/android_hardware_qcom_wlan" remote="rem" revision="lineage-20.0-caf" clone-depth="1" />
 
         <project path="device/xiaomi/tissot" name="Lafactorial/android_device_xiaomi_tissot" remote="rem" revision="rising" clone-depth="1" />
         <project path="device/xiaomi/msm8953-common" name="Lafactorial/device_xiaomi_msm8953-common" remote="rem" revision="rising" clone-depth="1" />
