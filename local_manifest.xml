@@ -14,6 +14,8 @@
         <project path="packages/apps/Launcher3" name="Lafactorial/android_packages_apps_Launcher3" remote="rem" revision="thirteen" />
         <remove-project name="RisingTechOSS/android_packages_apps_Personalizations" />
         <project path="packages/apps/Personalizations" name="Lafactoial/android_packages_apps_Personalizations" remote="rem" revision="thirteen" />
+        <remove-project name="minaripenguin/android_packages_apps_LineageParts" />
+        <project path="packages/apps/LineageParts" name="Lafactoial/android_packages_apps_LineageParts" remote="rem" revision="thirteen" />
 
         <project path="device/xiaomi/tissot" name="Lafactorial/android_device_xiaomi_tissot" remote="rem" revision="rising" clone-depth="1" />
         <project path="device/xiaomi/msm8953-common" name="Lafactorial/device_xiaomi_msm8953-common" remote="rem" revision="rising" clone-depth="1" />
