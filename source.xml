@@ -7,7 +7,4 @@
                 fetch="https://gitlab.com" />
 
         <project path="hardware/lineage/compat" name="Lafactorial/android_hardware_lineage_compat" remote="lab" revision="lineage-20.0" />
-        <project path="packages/apps/Launcher3" name="Lafactorial/android_packages_apps_Launcher3" remote="lab" revision="thirteen" />
-        <project path="packages/apps/Personalizations" name="Lafactoial/android_packages_apps_Personalizations" remote="lab" revision="thirteen" />
-        <project path="packages/apps/LineageParts" name="Lafactoial/android_packages_apps_LineageParts" remote="lab" revision="thirteen" />
 </manifest>
