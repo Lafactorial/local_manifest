@@ -6,5 +6,5 @@
         <remote name="lab"
                 fetch="https://gitlab.com" />
 
-        <project path="hardware/lineage/compat" name="Lafactorial/android_hardware_lineage_compat" remote="lab" revision="lineage-20.0" />
+        <project path="hardware/lineage/compat" name="Lafactorial/android_hardware_lineage_compat" remote="rem" revision="lineage-20.0" />
 </manifest>
