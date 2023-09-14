@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
         <remove-project name="LineageOS/android_hardware_lineage_compat" />
+        <remove-project name="RisingTechOSS/android_packages_apps_Launcher3" />
+        <remove-project name="minaripenguin/android_packages_apps_LineageParts" />
 </manifest>
