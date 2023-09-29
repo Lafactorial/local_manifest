@@ -3,8 +3,6 @@
 
         <remote name="rem"
                 fetch="https://github.com" />
-        <remote name="lab"
-                fetch="https://gitlab.com" />
 
         <project path="hardware/lineage/compat" name="Lafactorial/android_hardware_lineage_compat" remote="rem" revision="lineage-20.0" />
         <project path="packages/apps/Launcher3" name="Lafactorial/translations_android_packages_apps_Launcher3" remote="rem" revision="thirteen" />
