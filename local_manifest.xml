@@ -12,4 +12,7 @@
         <project path="vendor/xiaomi/tissot" name="Lafactorial/vendor_xiaomi_tissot" remote="rem" revision="thirteen" clone-depth="1" />
         <project path="vendor/xiaomi/msm8953-common" name="Lafactorial/vendor_xiaomi_msm8953-common" remote="rem" revision="lineage-21.0" clone-depth="1" />
         <project path="kernel/xiaomi/msm8953" name="Anothermi1/Another_Kernel_tissot-4.9" remote="rem" revision="Non-Treble-Non-KSU" />
+        <remove-project path="external/chromium-webview/prebuilt/arm64" name="LineageOS/android_external_chromium-webview_prebuilt_arm64"/>
+        <project path="external/chromium-webview/prebuilt/arm64" name="LineageOS/android_external_chromium-webview_prebuilt_arm64.git" remote="rem" revision="backup/main_20230314" />
+
 </manifest>
