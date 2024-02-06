@@ -2,7 +2,7 @@
 <manifest>
         <remote name="rem"
                 fetch="https://github.com" />
-        <remove-project name="hardware_lineage_compat" />
+        <remove-project name="android_hardware_lineage_compat" />
 
         <project path="hardware/lineage/compat" name="Lafactorial/android_hardware_lineage_compat" remote="rem" revision="lineage-21.0" clone-depth="1" />
         <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="rem" revision="lineage-21" clone-depth="1" />
