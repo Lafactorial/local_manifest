@@ -3,9 +3,7 @@
         <remote name="rem"
                 fetch="https://github.com" />
         <remove-project name="LineageOS/android_hardware_lineage_compat" />
-        <remove-project name="LineageOS/android_system_libhidl" />
-        <project path="system/libhidl" name="crdroidandroid/android_system_libhidl" remote="rem" revision="14.0" />
-        
+
         <project path="hardware/lineage/compat" name="Lafactorial/android_hardware_lineage_compat" remote="rem" revision="lineage-21.0" />
         <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="rem" revision="lineage-21" />
         <project path="device/xiaomi/tissot" name="Lafactorial/android_device_xiaomi_tissot" remote="rem" revision="rising-14" clone-depth="1" />
