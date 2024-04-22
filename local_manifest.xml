@@ -15,7 +15,7 @@
         <project path="vendor/xiaomi/tissot" name="Lafactorial/vendor_xiaomi_tissot" remote="rem" revision="lineage-21" clone-depth="1" />
         <project path="vendor/xiaomi/msm8953-common" name="Lafactorial/vendor_xiaomi_msm8953-common" remote="rem" revision="lineage-21" clone-depth="1" />
         <project path="kernel/xiaomi/msm8953" name="Lafactorial/android_kernel_xiaomi_msm8953" remote="rem" revision="rebase" clone-depth="1" />
-        <project path="device/qcom/sepolicy-legacy-um" name="tactus1/android_device_qcom_sepolicy" remote="rem" revision="lineage-21.0-legacy-um" clone-depth="1" />
+        <project path="device/qcom/sepolicy-legacy-um" name="LineageOS/android_device_qcom_sepolicy" remote="rem" revision="lineage-21.0-legacy-um" clone-depth="1" />
         <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" remote="rem" revision="lineage-21.0" clone-depth="1" />
         <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" remote="rem" revision="lineage-21.0" clone-depth="1" />
         <project path="system/sepolicy" name="LineageOS/android_system_sepolicy" remote="rem" revision="lineage-21.0" clone-depth="1" />
