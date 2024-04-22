@@ -8,10 +8,10 @@
         <remove-project name="system_sepolicy" />
         <remove-project name="device_qcom_sepolicy_vndr" />
 
-        <project path="hardware/lineage/compat" name="Lafactorial/android_hardware_lineage_compat" remote="rem" revision="lineage-21.0" />
-        <project path="hardware/xiaomi" name="yaap/hardware_xiaomi" remote="rem" revision="fourteen" />
+        <project path="hardware/lineage/compat" name="Lafactorial/android_hardware_lineage_compat" remote="rem" revision="lineage-21.0" clone-depth="1" />
+        <project path="hardware/xiaomi" name="LineageOS/hardware_xiaomi" remote="rem" revision="lineage-21.0" clone-depth="1" />
         <project path="device/xiaomi/tissot" name="tactus1/android_device_xiaomi_tissot" remote="rem" revision="YAAP-14" clone-depth="1" />
-        <project path="device/xiaomi/msm8953-common" name="tactus1/device_xiaomi_msm8953-common-1" remote="rem" revision="YAAP-14" clone-depth="1" />
+        <project path="device/xiaomi/msm8953-common" name="Lafactorial/device_xiaomi_msm8953-common-1" remote="rem" revision="yaap-14" clone-depth="1" />
         <project path="vendor/xiaomi/tissot" name="Lafactorial/vendor_xiaomi_tissot" remote="rem" revision="lineage-21" clone-depth="1" />
         <project path="vendor/xiaomi/msm8953-common" name="Lafactorial/vendor_xiaomi_msm8953-common" remote="rem" revision="lineage-21" clone-depth="1" />
         <project path="kernel/xiaomi/msm8953" name="Lafactorial/android_kernel_xiaomi_msm8953" remote="rem" revision="rebase" clone-depth="1" />
@@ -20,9 +20,9 @@
         <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" remote="rem" revision="lineage-21.0" clone-depth="1" />
         <project path="system/sepolicy" name="LineageOS/android_system_sepolicy" remote="rem" revision="lineage-21.0" clone-depth="1" />
         <project path="device/qcom/sepolicy_vndr" name="LineageOS/android_device_qcom_sepolicy_vndr" remote="rem" revision="lineage-21.0-legacy-um" clone-depth="1" />
-        <project path="hardware/qcom-caf/msm8996/audio" name="PixelExperience/hardware_qcom-caf_msm8996_audio" remote="rem" revision="fourteen" clone-depth="1" />
-        <project path="hardware/qcom-caf/msm8996/display" name="tactus1/hardware_qcom-caf_msm8996_display" remote="rem" revision="fourteen" clone-depth="1" />
-        <project path="hardware/qcom-caf/msm8996/media" name="PixelExperience/hardware_qcom-caf_msm8996_media" remote="rem" revision="fourteen" clone-depth="1" />
+        <project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" remote="rem" revision="lineage-21.0-caf-msm8996" clone-depth="1" />
+        <project path="hardware/qcom-caf/msm8996/display" name="LineageOS/android_hardware_qcom_display" remote="rem" revision="lineage-21.0-caf-msm8996" clone-depth="1" />
+        <project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" remote="rem" revision="lineage-21.0-caf-msm8996" clone-depth="1" />
         <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
         <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
         
