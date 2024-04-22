@@ -3,8 +3,8 @@
         <remote name="rem"
                 fetch="https://github.com" />
         <remove-project name="android_hardware_lineage_compat" />
-        <remove-project name="android_device_qcom_sepolicy" />
-        <remove-project name="android_device_lineage_sepolicy" />
+        <remove-project name="device_qcom_sepolicy />
+        <remove-project name="device_lineage_sepolicy" />
         <remove-project name="system_sepolicy" />
         <remove-project name="device_qcom_sepolicy_vndr" />
 
