@@ -19,6 +19,7 @@
         <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" remote="rem" revision="lineage-21.0" clone-depth="1" />
         <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" remote="rem" revision="lineage-21.0" clone-depth="1" />
         <project path="system/sepolicy" name="LineageOS/android_system_sepolicy" remote="rem" revision="lineage-21.0" clone-depth="1" />
+        <project path="device/qcom/sepolicy_vndr" name="LineageOS/android_device_qcom_sepolicy_vndr" remote="rem" revision="lineage-21.0-legacy-um" clone-depth="1" />
         <project path="hardware/qcom-caf/msm8996/audio" name="PixelExperience/hardware_qcom-caf_msm8996_audio" remote="rem" revision="fourteen" clone-depth="1" />
         <project path="hardware/qcom-caf/msm8996/display" name="tactus1/hardware_qcom-caf_msm8996_display" remote="rem" revision="fourteen" clone-depth="1" />
         <project path="hardware/qcom-caf/msm8996/media" name="PixelExperience/hardware_qcom-caf_msm8996_media" remote="rem" revision="fourteen" clone-depth="1" />
