@@ -13,4 +13,6 @@
         <remove-project name="hardware_xiaomi" />
         <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="rem" revision="lineage-21" clone-depth="1" />
         <project path="prebuilts/clang/host/linux-x86/clang-r510928" name="itsshashanksp/android_prebuilts_clang_host_linux-x86_clang-r510928" remote="lab" revision="14.0" clone-depth="1" />
+        <remove-project name="vendor_lineage" />
+        <project path="vendor/lineage" name="Lafactorial/vendor_lineage" remote="rem" revision="alpha-14" clone-depth="1" />
 </manifest>
