@@ -8,5 +8,5 @@
         <project path="device/xiaomi/sm6150-common" name="Lafactorial/android_device_xiaomi_sm6150-common" remote="rem" revision="evo" clone-depth="1" />
         <project path="vendor/xiaomi/sweet2" name="Lafactorial/android_vendor_xiaomi_sweet2" remote="rem" revision="lineage-21" clone-depth="1" />
         <project path="vendor/xiaomi/sm6150-common" name="Lafactorial/android_vendor_xiaomi_sm6150-common" remote="rem" revision="lineage-21" clone-depth="1" />
-        <project path="kernel/xiaomi/sm6150" name="Lafactorial/kernel_xiaomi_sm6150" remote="rem" revision="lineage-21" clone-depth="1" />
+        <project path="kernel/xiaomi/sm6150" name="itsshashanksp/kernel_xiaomi_sm6150" remote="rem" revision="sleepy-k6a-inline" clone-depth="1" />
 </manifest>
