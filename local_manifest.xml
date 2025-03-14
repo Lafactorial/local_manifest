@@ -2,6 +2,8 @@
 <manifest>
         <remote name="rem"
                 fetch="https://github.com" />
+        <remote fetch="https://gitlab.com/unmoved21" name="org2" />
+        <project name="vendor_xiaomi_garnet-miuicamera" path="vendor/xiaomi/garnet-miuicamera" remote="org2" revision="15" />
 
         <project path="hardware/xiaomi" name="Lafactorial/android_hardware_xiaomi" remote="rem" revision="15" clone-depth="1" />
         <project path="device/xiaomi/garnet" name="Lafactorial/android_device_xiaomi_garnet" remote="rem" revision="15.0" clone-depth="1" />
