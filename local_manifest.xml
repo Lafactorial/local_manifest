@@ -2,7 +2,7 @@
 <manifest>
         <remote name="rem"
                 fetch="https://github.com" />
-        <remote fetch="https://gitlab.com/unmoved21" name="org2" />
+        <remote fetch="https://github.com/stuff-garnet" name="org2" />
         <remote fetch="https://github.com/unmoved21" name="org3" />
         <project name="vendor_xiaomi_miuicamera-garnet" path="vendor/xiaomi/miuicamera-garnet" remote="org2" revision="fifteen" clone-depth="1" />
         <project name="device_xiaomi_miuicamera-garnet" path="device/xiaomi/miuicamera-garnet" remote="org2" revision="fifteen" clone-depth="1" />
