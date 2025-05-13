@@ -3,8 +3,8 @@
         <remote name="rem"
                 fetch="https://github.com" />
         #Camera#
-        <project name="vendor_xiaomi_miuicamera-garnet" path="stuff-garnet/vendor/xiaomi/miuicamera-garnet" remote="rem" revision="fifteen" clone-depth="1" />
-        <project name="device_xiaomi_miuicamera-garnet" path="stuff-garnet/device/xiaomi/miuicamera-garnet" remote="rem" revision="fifteen" clone-depth="1" />
+        <project name="stuff-garnet/vendor_xiaomi_miuicamera-garnet" path="vendor/xiaomi/miuicamera-garnet" remote="rem" revision="fifteen" clone-depth="1" />
+        <project name="stuff-garnet/device_xiaomi_miuicamera-garnet" path="device/xiaomi/miuicamera-garnet" remote="rem" revision="fifteen" clone-depth="1" />
 
         #Device#
         <project name="stuff-garnet/hardware_xiaomi" path="hardware/xiaomi" remote="rem" revision="fifteen" clone-depth="1" />
