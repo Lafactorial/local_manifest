@@ -2,11 +2,11 @@
 <manifest>
         <remote name="rem"
                 fetch="https://github.com" />
-        <remote fetch="https://github.com/stuff-garnet" name="org2" />
-        <remote fetch="https://github.com/unmoved21" name="org3" />
-        <project name="vendor_xiaomi_miuicamera-garnet" path="vendor/xiaomi/miuicamera-garnet" remote="org2" revision="fifteen" clone-depth="1" />
-        <project name="device_xiaomi_miuicamera-garnet" path="device/xiaomi/miuicamera-garnet" remote="org2" revision="fifteen" clone-depth="1" />
+        #Camera#
+        <project name="vendor_xiaomi_miuicamera-garnet" path="stuff-garnet/vendor/xiaomi/miuicamera-garnet" remote="rem" revision="fifteen" clone-depth="1" />
+        <project name="device_xiaomi_miuicamera-garnet" path="stuff-garnet/device/xiaomi/miuicamera-garnet" remote="rem" revision="fifteen" clone-depth="1" />
 
+        #Device#
         <project name="stuff-garnet/hardware_xiaomi" path="hardware/xiaomi" remote="rem" revision="fifteen" clone-depth="1" />
         <project path="device/xiaomi/garnet" name="Lafactorial/android_device_xiaomi_garnet" remote="rem" revision="fifteen" clone-depth="1" />
         <project path="vendor/xiaomi/garnet" name="Lafactorial/proprietary_vendor_xiaomi_garnet" remote="rem" revision="fifteen" clone-depth="1" />
