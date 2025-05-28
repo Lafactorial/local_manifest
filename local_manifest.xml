@@ -3,7 +3,6 @@
         <remote name="rem"
                 fetch="https://github.com" />
         #Camera#
-        <project name="Lafactorial/vendor_xiaomi_miuicamera-garnet" path="vendor/xiaomi/miuicamera-garnet" remote="rem" revision="lineage-22.2" clone-depth="1" />
         <project name="Lafactorial/device_xiaomi_miuicamera-garnet" path="device/xiaomi/miuicamera-garnet" remote="rem" revision="lineage-22.2" clone-depth="1" />
 
         #Device#
