@@ -2,9 +2,6 @@
 <manifest>
         <remote name="rem"
                 fetch="https://github.com" />
-        #Camera#
-        <project name="Lafactorial/device_xiaomi_miuicamera-garnet" path="device/xiaomi/miuicamera-garnet" remote="rem" revision="lineage-22.2" clone-depth="1" />
-
         #Device#
         <remove-project name="android_hardware_xiaomi" />
         <project name="stuff-garnet/hardware_xiaomi" path="hardware/xiaomi" remote="rem" revision="fifteen" clone-depth="1" />
