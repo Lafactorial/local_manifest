@@ -3,8 +3,6 @@
         <remote name="rem"
                 fetch="https://github.com" />
 
-        <remove-project name="LineageOS/android_hardware_lineage_compat" />
-        <project path="hardware/lineage/compat" name="ProjectInfinity-X/hardware_lineage_compat" remote="rem" revision="16" clone-depth="1" />
         <remove-project name="crdroidandroid/android_system_sepolicy" />
         <project path="system/sepolicy" name="Lafactorial//android_system_sepolicy" remote="rem" revision="16.0" clone-depth="1" />
 
