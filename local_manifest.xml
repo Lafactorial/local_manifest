@@ -11,5 +11,5 @@
         #Device#
         <project name="Lafactorial/hardware_xiaomi_garnet" path="hardware/xiaomi" remote="rem" revision="lineage-22.2" clone-depth="1" />
         <project path="device/xiaomi/garnet" name="Lafactorial/android_device_xiaomi_garnet" remote="rem" revision="lineage-23" clone-depth="1" />
-        <project path="vendor/xiaomi/garnet" name="Lafactorial/proprietary_vendor_xiaomi_garnet" remote="rem" revision="next1" clone-depth="1" />
+        <project path="vendor/xiaomi/garnet" name="Lafactorial/proprietary_vendor_xiaomi_garnet" remote="rem" revision="next2" clone-depth="1" />
 </manifest>
