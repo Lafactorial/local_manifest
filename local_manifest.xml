@@ -5,8 +5,7 @@
 
         <remove-project name="LineageOS/android_packages_modules_Permission" />
         <project name="Lafactorial/android_packages_modules_Permission" path="packages/modules/Permission" remote="rem" revision="lineage-23.0" clone-depth="1" />
-        <project name="Lafactorial/hardware_xiaomi_garnet" path="hardware/xiaomi" remote="rem" revision="lineage-23.1" clone-depth="1" />
-        <project path="device/xiaomi/garnet" name="Lafactorial/android_device_xiaomi_garnet" remote="rem" revision="dolby" clone-depth="1" />
-        <project path="vendor/xiaomi/garnet" name="Lafactorial/proprietary_vendor_xiaomi_garnet" remote="rem" revision="dolby" clone-depth="1" />
-        <project name="Lafactorial/packages_apps_XiaomiDolby" path="packages/apps/XiaomiDolby" remote="rem" revision="lineage-23.0" clone-depth="1" />
+        <project name="Lafactorial/hardware_xiaomi_garnet" path="hardware/xiaomi" remote="rem" revision="lineage-23.0" clone-depth="1" />
+        <project path="device/xiaomi/garnet" name="Lafactorial/android_device_xiaomi_garnet" remote="rem" revision="infinity" clone-depth="1" />
+        <project path="vendor/xiaomi/garnet" name="Lafactorial/proprietary_vendor_xiaomi_garnet" remote="rem" revision="lineage-23.0" clone-depth="1" />
 </manifest>
