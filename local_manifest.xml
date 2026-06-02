@@ -3,8 +3,6 @@
         <remote name="rem"
                 fetch="https://github.com" />
 
-        <remove-project name="packages_overlays_Themes" />
-        <project name="Lafactorial/packages_overlays_Themes" path="packages/overlays/Themes" remote="rem" revision="16" clone-depth="1" />
         <project name="Lafactorial/hardware_xiaomi_garnet" path="hardware/xiaomi" remote="rem" revision="lineage-23.2" clone-depth="1" />
         <project path="device/xiaomi/garnet" name="Lafactorial/android_device_xiaomi_garnet" remote="rem" revision="infinity" clone-depth="1" />
         <project path="vendor/xiaomi/garnet" name="Lafactorial/proprietary_vendor_xiaomi_garnet" remote="rem" revision="lineage-23.2" clone-depth="1" />
